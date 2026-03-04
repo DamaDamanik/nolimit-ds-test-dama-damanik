@@ -251,9 +251,9 @@ def main():
                     "Suka banget sama fitur baru gojek, makin mudah pesan makanan!"
                 ],
                 "Netral": [
-                    "Biasa aja sih aplikasinya, standar.",
+                    "B aja.",
                     "Lumayan lah, kadang cepat kadang lambat.",
-                    "Oke untuk kebutuhan sehari-hari."
+                    "Lumayan lah walaupun banyak bug."
                 ],
                 "Negatif": [
                     "Aplikasinya sering error dan lemot banget!",
