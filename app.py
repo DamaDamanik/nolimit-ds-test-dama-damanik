@@ -468,9 +468,6 @@ def main():
         
         Dibuat untuk analisis sentimen review Gojek App dengan pendekatan Deep Learning.
         
-        #### 📧 Kontak
-        
-        Untuk pertanyaan atau saran, silakan hubungi kami.
         """)
         
         st.markdown("---")
