@@ -1,15 +1,28 @@
 # Technical Test Data Scientist - Sentiment Analysis
-Analisis Sentimen Review Aplikasi Gojek
+**Deep Learning Powered Sentiment Analysis for Gojek App Reviews**
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Installation](#️-installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [Project Structure](#-project-structure)
+- [Technologies](#-technologies)
+- [Features](#-features)
+- [Live Demo](#-live-demo)
 
 ## 🎯 Overview
 
-Project ini merupakan sistem **Analisis Sentimen** untuk review aplikasi **Gojek** menggunakan **Deep Learning** dengan arsitektur Neural Network dan **SentenceTransformer** embeddings. Sistem mampu mengklasifikasikan sentimen review menjadi tiga kategori: **Positif**, **Netral**, dan **Negatif** dengan akurasi ~85%.
+Project ini merupakan sistem **Analisis Sentimen** untuk review aplikasi **Gojek** menggunakan **Deep Learning** dengan arsitektur Neural Network dan **SentenceTransformer** embeddings. Sistem mampu mengklasifikasikan sentimen review menjadi tiga kategori: **Positif**, **Netral**, dan **Negatif** dengan akurasi ~75%.
 
 ---
 
 ## 📊 Dataset
 
-Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang di-scrape dari Google Play Store.
+Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle.
 
 ### Distribusi Data
 
@@ -28,6 +41,18 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang di-scrape dari Goog
 
 ---
 
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔮 **Real-time Prediction** | Input teks review dan dapatkan prediksi instan |
+| 📊 **Confidence Score** | Lihat probabilitas untuk setiap kelas sentimen |
+| 📈 **Visual Analytics** | Grafik distribusi dan metrik model |
+| 🎨 **Modern UI** | Interface yang clean dan responsif dengan Streamlit |
+| ⚡ **Fast Inference** | Optimized dengan caching dan batch processing |
+
+---
+
 ## 🚀 Live Demo
 
 <!-- 🎉 **Try it now!** 🎉 -->
@@ -36,3 +61,15 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang di-scrape dari Goog
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
 (https://nolimit-ds-test-dama-damanik-7ze9xgkeh2puicj7qogh6g.streamlit.app/)
 
+---
+
+<div align="center">
+
+| Home Page | Prediction | Statistics |
+|:---------:|:----------:|:----------:|
+| ![Home](<img width="3309" height="2339" alt="4235307f-1" src="https://github.com/user-attachments/assets/b779cd6a-eac3-4181-98ac-a90382a8345c" />
+) | ![Predict](<img width="3309" height="2339" alt="dbca7627-2" src="https://github.com/user-attachments/assets/9b8c7a97-deef-478e-af70-e692a6771a6e" />
+<img width="3309" height="2339" alt="dbca7627-1" src="https://github.com/user-attachments/assets/0ee75ef9-832f-4ce1-9c81-6679917e9063" />
+) | ![Stats](<img width="2339" height="1653" alt="57b47c74-2" src="https://github.com/user-attachments/assets/b820f692-4122-4241-9e45-f231f28b4917" />
+<img width="2339" height="1653" alt="57b47c74-1" src="https://github.com/user-attachments/assets/277d2327-60bd-4b62-bba2-ef28f7ad19ed" />
+)
