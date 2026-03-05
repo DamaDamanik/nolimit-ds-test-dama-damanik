@@ -47,19 +47,19 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ## 🧠 Model Architecture
 
-*Input*
+**Input**
 - Input (384 dimensions)
 - SentenceTransformer Embeddings
-*Layer 1*
+**Layer 1**
 - Dense(256) + ReLU + BatchNorm
 - Dropout(0.4)
-*Layer 2*
+**Layer 2**
 - Dense(128) + ReLU + BatchNorm
 - Dropout(0.3)
-*Layer 3*
+**Layer 3**
 - Dense(64) + ReLU + BatchNorm
 - Dropout(0.2)
-*Output*
+**Output**
 - Dense(3) + Softmax
 - Output: [Negatif, Netral, Positif]
 
