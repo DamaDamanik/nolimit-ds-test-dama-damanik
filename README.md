@@ -45,6 +45,42 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ---
 
+## 🧠 Model Architecture
+┌─────────────────────────────────────┐
+│     Input (384 dimensions)          │
+│  SentenceTransformer Embeddings     │
+└─────────────┬───────────────────────┘
+▼
+┌─────────────────────────────────────┐
+│  Dense(256) + ReLU + BatchNorm     │
+│  Dropout(0.4)                       │
+└─────────────┬───────────────────────┘
+▼
+┌─────────────────────────────────────┐
+│  Dense(128) + ReLU + BatchNorm     │
+│  Dropout(0.3)                       │
+└─────────────┬───────────────────────┘
+▼
+┌─────────────────────────────────────┐
+│  Dense(64) + ReLU + BatchNorm      │
+│  Dropout(0.2)                       │
+└─────────────┬───────────────────────┘
+▼
+┌─────────────────────────────────────┐
+│  Dense(3) + Softmax                 │
+│  Output: [Negatif, Netral, Positif] │
+└─────────────────────────────────────┘
+
+### Training Configuration
+
+- **Optimizer:** Adam (lr=0.001)
+- **Loss Function:** Sparse Categorical Crossentropy
+- **Batch Size:** 512
+- **Epochs:** 50 (with early stopping)
+- **Class Weights:** Balanced untuk handle imbalanced data
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
