@@ -182,7 +182,4 @@ Daftar dependency tersedia di: requirements.txt
 ---
 
 ## ✉️ Contact
-Untuk pertanyaan atau saran, silakan buat issue di repository.
-Atau bisa dengan menghubungi:
-damadmk@gmail.com
-089688394828
+Untuk pertanyaan atau saran, silahkan buat issue di repository.
