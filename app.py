@@ -147,7 +147,7 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Gojek_logo_2019.svg/1200px-Gojek_logo_2019.svg.png", width=150)
+        st.image("https://www.google.com/imgres?q=gojek&imgurl=https%3A%2F%2Fimg.tempo.co%2Findonesiana%2Fimages%2Fall%2F2023%2F06%2F21%2Ff202306211058236.jpg&imgrefurl=https%3A%2F%2Fwww.indonesiana.id%2Fread%2F165303%2Fsistem-pengendlaian-manajemen-pada-pt-gojek-indonesia&docid=zBOgnbGd7u4y_M&tbnid=Gcns458HAkdpaM&vet=12ahUKEwjo6LDIwIeTAxXBzDgGHb6xB68QnPAOegQIHhAB..i&w=750&h=937&hcb=2&ved=2ahUKEwjo6LDIwIeTAxXBzDgGHb6xB68QnPAOegQIHhAB", width=150)
         st.title("📊 Menu")
         
         menu = st.radio(
