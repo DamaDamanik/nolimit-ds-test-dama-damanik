@@ -12,7 +12,8 @@
 - [Modeling](#-modeling)
 - [Evaluation](#-evaluation)
 - [Live Demo](#-live-demo)
-- [Features](#-features)
+- [Fitur Aplikasi](#-fitur-aplikasi)
+- [Requirements](#-requirements)
 
 ---
 
