@@ -7,14 +7,12 @@
 
 - [Overview](#-overview)
 - [Dataset](#-dataset)
-- [Model Architecture](#-model-architecture)
-- [Installation](#️-installation)
-- [Usage](#-usage)
-- [Results](#-results)
-- [Project Structure](#-project-structure)
-- [Technologies](#-technologies)
-- [Features](#-features)
+- [EDA (Exploratory Data Analysis)](#-eda)
+- [Text Preprocessing](#-text-preprocessing)
+- [Modeling](#-modeling)
+- [Evaluation](#-evaluation)
 - [Live Demo](#-live-demo)
+- [Features](#-features)
 
 ---
 
@@ -57,7 +55,7 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ---
 
-## 🔍 EDA Highlights
+## 🔍 EDA
 
 EDA dilakukan untuk:
 - Mengecek distribusi rating & sentiment
