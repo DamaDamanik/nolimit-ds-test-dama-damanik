@@ -61,9 +61,7 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
 (https://nolimit-ds-test-dama-damanik-7ze9xgkeh2puicj7qogh6g.streamlit.app/)
 
----
-
-<div align="center">
+### 📸 Screenshots
 
 | Home Page | Prediction | Statistics |
 |:---------:|:----------:|:----------:|
