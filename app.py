@@ -367,13 +367,13 @@ def main():
         metrics_col1, metrics_col2, metrics_col3, metrics_col4 = st.columns(4)
         
         with metrics_col1:
-            st.metric("🎯 Accuracy", "85.2%", "+53%")
+            st.metric("🎯 Accuracy", "75.5%")
         with metrics_col2:
-            st.metric("📊 Precision", "84.8%", "+52%")
+            st.metric("📊 Precision", "62.6%")
         with metrics_col3:
-            st.metric("📈 Recall", "83.5%", "+51%")
+            st.metric("📈 Recall", "65.5%")
         with metrics_col4:
-            st.metric("⭐ F1-Score", "84.1%", "+52%")
+            st.metric("⭐ F1-Score", "60.4%")
         
         st.markdown("---")
         
