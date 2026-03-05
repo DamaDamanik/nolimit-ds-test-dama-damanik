@@ -382,9 +382,9 @@ def main():
         
         # Sample confusion matrix (replace with actual data)
         cm_data = np.array([
-            [8500, 800, 700],   # Actual Negatif
-            [600, 1200, 400],   # Actual Netral
-            [500, 300, 28000]   # Actual Positif
+            [6687, 3164, 639],   # Actual Negatif
+            [617, 843, 265],   # Actual Netral
+            [1156, 2054, 16769]   # Actual Positif
         ])
         
         fig_cm = px.imshow(
