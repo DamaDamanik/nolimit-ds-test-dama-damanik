@@ -28,6 +28,18 @@ Project ini merupakan sistem **Analisis Sentimen** untuk review aplikasi **Gojek
 
 Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle.
 
+| Column | Description |
+|--------|-------------|
+| review | Teks ulasan customer |
+| rating | Rating 1-5 |
+| sentiment | Label hasil mapping rating → sentiment |
+
+### Sentiment Mapping
+
+- 4-5 → **positif**
+- 3 → **netral**
+- 1-2 → **negatif**
+
 ### Distribusi Data
 
 | Sentimen | Jumlah | Persentase | Rating |
@@ -45,7 +57,35 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ---
 
-## 🧠 Model Architecture
+## 🔍 EDA Highlights
+
+EDA dilakukan untuk:
+- Mengecek distribusi rating & sentiment
+- Menganalisis panjang review (karakter & kata)
+- Memvalidasi kualitas teks
+- Mendeteksi imbalance dataset
+
+---
+
+## 🧹 Text Preprocessing
+
+Preprocessing dilakukan untuk membersihkan data teks:
+- Remove URLs
+- Remove punctuation (kecuali emoji)
+- Remove numbers
+- Lowercase
+- Remove extra whitespace
+- Filter review dengan minimal 2 kata
+
+---
+
+## 🧠 Modeling
+
+Model yang digunakan:
+- **Embedding**: SentenceTransformer (`paraphrase-multilingual-MiniLM-L12-v2`)
+- **Classifier**: Neural Network (Dense layers dengan BatchNorm & Dropout)
+
+### Arsitektur Model
 
 **Input**
 - Input (384 dimensions)
@@ -68,7 +108,7 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 - Output: [Negatif, Netral, Positif]
 
 
-### Training Configuration
+### Konfigurasi Training
 
 - **Optimizer:** Adam (lr=0.001)
 - **Loss Function:** Sparse Categorical Crossentropy
@@ -78,15 +118,24 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ---
 
-## ✨ Features
+## 📈 Evaluation
 
-| Feature | Description |
-|---------|-------------|
-| 🔮 **Real-time Prediction** | Input teks review dan dapatkan prediksi instan |
-| 📊 **Confidence Score** | Lihat probabilitas untuk setiap kelas sentimen |
-| 📈 **Visual Analytics** | Grafik distribusi dan metrik model |
-| 🎨 **Modern UI** | Interface yang clean dan responsif dengan Streamlit |
-| ⚡ **Fast Inference** | Optimized dengan caching dan batch processing |
+Model dievaluasi menggunakan dataset test dengan hasil sebagai berikut:
+
+| Metric | Value |
+|--------|-------|
+| Accuracy | 75.48% |
+| F1-Score (Macro) | 0.6043 |
+| Precision (Macro) | 0.6261 |
+| Recall (Macro) | 0.6552 |
+
+Per-class performance:
+
+| Class | Precision | Recall | F1-Score |
+|-------|-----------|--------|----------|
+| negatif | 0.7904 | 0.6375 | 0.7058 |
+| netral | 0.1391 | 0.4887 | 0.2165 |
+| positif | 0.9488 | 0.8393 | 0.8907 |
 
 ---
 
@@ -113,3 +162,20 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 <img width="2339" height="1653" alt="57b47c74-1" src="https://github.com/user-attachments/assets/277d2327-60bd-4b62-bba2-ef28f7ad19ed" />
 <img width="2339" height="1653" alt="57b47c74-2" src="https://github.com/user-attachments/assets/b820f692-4122-4241-9e45-f231f28b4917" />
 
+---
+
+## ✨ Fitur Aplikasi
+
+| Fitur | Deskripsi |
+|---------|-------------|
+| 🔮 **Real-time Prediction** | Input teks review dan dapatkan prediksi instan |
+| 📊 **Confidence Score** | Lihat probabilitas untuk setiap kelas sentimen |
+| 📈 **Visual Analytics** | Grafik distribusi dan metrik model |
+| 🎨 **Modern UI** | Interface yang clean dan responsif dengan Streamlit |
+| ⚡ **Fast Inference** | Optimized dengan caching dan batch processing |
+
+---
+
+## 🛠️ Requirements
+
+Daftar dependency tersedia di: requirements.txt
