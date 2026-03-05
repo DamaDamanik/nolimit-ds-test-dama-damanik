@@ -46,6 +46,8 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 ---
 
 ## 🧠 Model Architecture
+
+<div align="center">
 ┌─────────────────────────────────────┐
 │     Input (384 dimensions)          │
 │  SentenceTransformer Embeddings     │
@@ -70,6 +72,7 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 │  Dense(3) + Softmax                 │
 │  Output: [Negatif, Netral, Positif] │
 └─────────────────────────────────────┘
+</div>
 
 ### Training Configuration
 
