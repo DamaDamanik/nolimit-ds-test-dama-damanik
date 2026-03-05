@@ -63,11 +63,14 @@ Dataset terdiri dari **225,002 reviews** aplikasi Gojek yang diambil dari Kaggle
 
 ### 📸 Screenshots
 
-| Home Page | Prediction | Statistics |
-|:---------:|:----------:|:----------:|
-| ![Home](<img width="3309" height="2339" alt="4235307f-1" src="https://github.com/user-attachments/assets/b779cd6a-eac3-4181-98ac-a90382a8345c" />
-) | ![Predict](<img width="3309" height="2339" alt="dbca7627-2" src="https://github.com/user-attachments/assets/9b8c7a97-deef-478e-af70-e692a6771a6e" />
+*Home*
+(<img width="3309" height="2339" alt="4235307f-1" src="https://github.com/user-attachments/assets/b779cd6a-eac3-4181-98ac-a90382a8345c" />
+) 
+*Prediksi*
+(<img width="3309" height="2339" alt="dbca7627-2" src="https://github.com/user-attachments/assets/9b8c7a97-deef-478e-af70-e692a6771a6e" />
 <img width="3309" height="2339" alt="dbca7627-1" src="https://github.com/user-attachments/assets/0ee75ef9-832f-4ce1-9c81-6679917e9063" />
-) | ![Stats](<img width="2339" height="1653" alt="57b47c74-2" src="https://github.com/user-attachments/assets/b820f692-4122-4241-9e45-f231f28b4917" />
+) 
+*Statistik*
+(<img width="2339" height="1653" alt="57b47c74-2" src="https://github.com/user-attachments/assets/b820f692-4122-4241-9e45-f231f28b4917" />
 <img width="2339" height="1653" alt="57b47c74-1" src="https://github.com/user-attachments/assets/277d2327-60bd-4b62-bba2-ef28f7ad19ed" />
 )
