@@ -181,5 +181,25 @@ Daftar dependency tersedia di: requirements.txt
 
 ---
 
+## 📝 How to Use
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Download pre-trained model (atau train sendiri):
+- gojek_sentiment_best_model.keras
+- label_encoder.pkl
+
+3. Jalankan aplikasi:
+
+```bash
+streamlit run src/app.py
+```
+
+---
+
 ## ✉️ Contact
 Untuk pertanyaan atau saran, silahkan buat issue di repository.
