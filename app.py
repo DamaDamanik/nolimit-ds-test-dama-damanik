@@ -473,7 +473,7 @@ def main():
     # Footer
     st.markdown("""
     <div class="footer">
-        <p>© 2024 Gojek Sentiment Analysis | Powered by TensorFlow & Streamlit</p>
+        <p>© 2026 Gojek Sentiment Analysis | Dama Damanik</p>
     </div>
     """, unsafe_allow_html=True)
 
