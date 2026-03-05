@@ -464,10 +464,6 @@ def main():
         | Netral | 3 | 😐 | Kuning |
         | Negatif | 1-2 | 😠 | Merah |
         
-        #### 👨‍💻 Developer
-        
-        Dibuat untuk analisis sentimen review Gojek App dengan pendekatan Deep Learning.
-        
         """)
         
         st.markdown("---")
