@@ -178,3 +178,11 @@ Per-class performance:
 ## 🛠️ Requirements
 
 Daftar dependency tersedia di: requirements.txt
+
+---
+
+## ✉️ Contact
+Untuk pertanyaan atau saran, silakan buat issue di repository.
+Atau bisa dengan menghubungi:
+damadmk@gmail.com
+089688394828
