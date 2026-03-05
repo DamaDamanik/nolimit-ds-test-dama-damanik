@@ -141,6 +141,7 @@ def main():
     # Header
     st.markdown('<h1 class="main-header">🚕 Gojek Sentiment Analysis</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Analisis Sentimen Review Aplikasi Gojek dengan Deep Learning</p>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">(NB: Use Light Theme)</p>', unsafe_allow_html=True)
     
     # Load models
     model, label_encoder, embedder, models_loaded = load_models()
