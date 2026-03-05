@@ -175,7 +175,7 @@ def main():
             st.markdown("""
             <div class="metric-card">
                 <h3>🎯 Akurasi</h3>
-                <h2>~85%</h2>
+                <h2>~75%</h2>
                 <p>Test Accuracy</p>
             </div>
             """, unsafe_allow_html=True)
