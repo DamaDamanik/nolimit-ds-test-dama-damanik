@@ -6,6 +6,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Repository Structure](#-repository-structure)
 - [Dataset](#-dataset)
 - [EDA (Exploratory Data Analysis)](#-eda)
 - [Text Preprocessing](#-text-preprocessing)
@@ -14,12 +15,33 @@
 - [Live Demo](#-live-demo)
 - [Fitur Aplikasi](#-fitur-aplikasi)
 - [Requirements](#-requirements)
+- [How to Use](#-how-to-use)
 
 ---
 
 ## 🎯 Overview
 
 Project ini merupakan sistem **Analisis Sentimen** untuk review aplikasi **Gojek** menggunakan **Deep Learning** dengan arsitektur Neural Network dan **SentenceTransformer** embeddings. Sistem mampu mengklasifikasikan sentimen review menjadi tiga kategori: **Positif**, **Netral**, dan **Negatif** dengan akurasi ~75%.
+
+---
+
+## 📁 Repository Structure
+
+```bash
+nolimit-ds-test-dama-damanik/
+├── Data/
+│   └── GojekAppReviews.csv
+├── Flowchart/
+│   └── Flowchart.jpg
+├── Notebooks/
+│   └── Gojek_Sentiment_Analysis.ipynb
+├── README.md
+├── app.py
+├── gojek_sentiment_best_model.keras
+├── gojek_sentiment_final_model.keras
+├── label_encoder.pkl
+└── requirements.txt
+```
 
 ---
 
